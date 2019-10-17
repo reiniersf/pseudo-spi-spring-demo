@@ -5,9 +5,10 @@
   <artifactId>spi-demo</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>spi-consumer</module>
-    <module>spec-provider</module>
-    <module>spec-impl-a</module>
+
+    <module>qeue-consumer</module>
+    <module>qeue-producer</module>
+    <module>qeue-consumer-spi</module>
   </modules>
   <packaging>pom</packaging>
   <name>spi-demo</name>
