@@ -8,7 +8,6 @@
     <module>spi-consumer</module>
     <module>spec-provider</module>
     <module>spec-impl-a</module>
-    <module>spec-impl-b</module>
   </modules>
   <packaging>pom</packaging>
   <name>spi-demo</name>
