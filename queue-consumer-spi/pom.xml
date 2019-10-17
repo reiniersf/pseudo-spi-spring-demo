@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>qeue-consumer-spi</artifactId>
+  <artifactId>queue-consumer-spi</artifactId>
 
 
 </project>
