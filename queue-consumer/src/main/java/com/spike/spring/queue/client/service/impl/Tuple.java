@@ -1,11 +1,13 @@
-package com.spike.spring.queue.client.api.impl;
+package com.spike.spring.queue.client.service.impl;
 
 class Tuple<L, R> {
 
   private R right;
   private L left;
 
-  private Tuple(R right, L left) {
+  public Tuple(){}
+
+  public Tuple(R right, L left) {
     this.right = right;
     this.left = left;
   }
@@ -18,7 +20,8 @@ class Tuple<L, R> {
     return left;
   }
 
-  public static <L, R> Tuple<L, R> tupleWith(L left, R right) {
-    return new Tuple<>(right, left);
+  @Override
+  public String toString() {
+    return String.format("Tuple: [%s -> %s]", right, left);
   }
 }

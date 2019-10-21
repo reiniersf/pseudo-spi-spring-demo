@@ -1,5 +1,5 @@
 package com.spike.spring.queue.consumer.api;
 
-public class AsyncQueueListener {
-
+public interface AsyncQueueDelegate {
+  void processMessage(Object message);
 }

@@ -1,6 +1,6 @@
-package com.spike.spring.queue.client.api.impl;
+package com.spike.spring.queue.client.service.impl;
 
-import com.spike.spring.queue.client.api.service.FeedbackReporter;
+import com.spike.spring.queue.client.service.api.FeedbackReporter;
 import java.net.URI;
 import java.util.List;
 import org.springframework.boot.web.client.RestTemplateBuilder;
